@@ -1,8 +1,7 @@
 # Movie Website
 
 Python is required to run this project. If you don't have it install it first.     
-Link to install python :   
-https://www.python.org/
+Link to install python :   https://www.python.org/
 
 After installing python just run the program entertainment.py. The command to run the program is :  
 
