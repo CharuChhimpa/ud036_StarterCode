@@ -46,7 +46,14 @@ hunger_games = media.Movie(
   "https://www.youtube.com/watch?v=mfmrPu43DF8"
 )
 
-movies = [toy_story, avatar, annabelle, grudge, inception, hunger_games]
+movies = [
+  toy_story,
+  avatar,
+  annabelle,
+  grudge,
+  inception,
+  hunger_games
+]
 
 # Calling fresh_tomatoes function open_movies_page to make a website
 
