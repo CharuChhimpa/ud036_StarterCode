@@ -4,7 +4,7 @@ import fresh_tomatoes
 
 # Toy story movie : title, storyline, poster, trailer
 toy_story = media.Movie(
-  "Toy story", 
+  "Toy story",
   "A boy and toys",
   "images/toy_story.jpg",
   "https://www.youtube.com/watch?v=KYz2wyBy3kc"
@@ -28,16 +28,16 @@ annabelle = media.Movie(
 
 # Grudge movie : title, storyline, poster, trailer
 grudge = media.Movie(
-  "Grudge", 
+  "Grudge",
   "Horror movie with",
-  "images/grudge.jpg", 
+  "images/grudge.jpg",
   "https://www.youtube.com/watch?v=o2vDoFYNRMc"
 )
 
-#Inception movie : title, storyline, poster, trailer
+# Inception movie : title, storyline, poster, trailer
 inception = media.Movie(
   "Inception",
-  "Inception", 
+  "Inception",
   "images/inception.jpg",
   "https://www.youtube.com/watch?v=YoHD9XEInc0"
 )
@@ -45,7 +45,7 @@ inception = media.Movie(
 # Hunger games : title, storyline, poster, trailer
 hunger_games = media.Movie(
   "Hunger Games",
-  "Advanterous movie with thrill", 
+  "Advanterous movie with thrill",
   "images/hunger_games.jpg",
   "https://www.youtube.com/watch?v=mfmrPu43DF8"
 )
@@ -63,6 +63,3 @@ movies = [
 # Calling fresh_tomatoes function open_movies_page to make a website
 
 fresh_tomatoes.open_movies_page(movies)
-
-
-
