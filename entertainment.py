@@ -2,8 +2,6 @@ import media
 import fresh_tomatoes
 
 
-# Making several instances of the class Movie
-
 # Toy story movie : title, storyline, poster, trailer
 toy_story = media.Movie(
   "Toy story", 
