@@ -4,6 +4,7 @@ import fresh_tomatoes
 
 # Making several instances of the class Movie
 
+# Toy story movie : title, storyline, poster, trailer
 toy_story = media.Movie(
   "Toy story", 
   "A boy and toys",
@@ -11,6 +12,7 @@ toy_story = media.Movie(
   "https://www.youtube.com/watch?v=KYz2wyBy3kc"
 )
 
+# Avatar movie : title, storyline, poster, trailer
 avatar = media.Movie(
   "Avatar",
   "Animated Creatures",
@@ -18,6 +20,7 @@ avatar = media.Movie(
   "https://www.youtube.com/watch?v=d1_JBMrrYw8"
 )
 
+# Annabelle movie : title, storyline, poster, trailer
 annabelle = media.Movie(
   "Annabelle",
   "Horrible doll movie",
@@ -25,6 +28,7 @@ annabelle = media.Movie(
   "https://www.youtube.com/watch?v=KisPhy7T__Q"
 )
 
+# Grudge movie : title, storyline, poster, trailer
 grudge = media.Movie(
   "Grudge", 
   "Horror movie with",
@@ -32,6 +36,7 @@ grudge = media.Movie(
   "https://www.youtube.com/watch?v=o2vDoFYNRMc"
 )
 
+#Inception movie : title, storyline, poster, trailer
 inception = media.Movie(
   "Inception",
   "Inception", 
@@ -39,6 +44,7 @@ inception = media.Movie(
   "https://www.youtube.com/watch?v=YoHD9XEInc0"
 )
 
+# Hunger games : title, storyline, poster, trailer
 hunger_games = media.Movie(
   "Hunger Games",
   "Advanterous movie with thrill", 
@@ -46,6 +52,7 @@ hunger_games = media.Movie(
   "https://www.youtube.com/watch?v=mfmrPu43DF8"
 )
 
+# Movies list to pass to media file
 movies = [
   toy_story,
   avatar,
